@@ -1,0 +1,4 @@
+[submodule "greenscreen"]
+	path = greenscreen
+	url = git@github.com:groupon/greenscreen.git
+	branch = master
