@@ -1,0 +1,8 @@
+greenscreen:
+  build: .
+  ports:
+    - "4994:4994"
+  links:
+    - couchdb
+couchdb:
+  image: klaemo/couchdb
